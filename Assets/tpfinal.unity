@@ -218,7 +218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtTime: {fileID: 1898085986}
   txtwins: {fileID: 430040328}
-  pelota: {fileID: 1076304525132084209, guid: 07cfe2e578becdf4f95432108633b0c1, type: 3}
+  pelota: {fileID: 4272665052308964846, guid: 6ebf6b6f36e7e2645babe792aedeb26b, type: 3}
 --- !u!1 &53708476
 GameObject:
   m_ObjectHideFlags: 0

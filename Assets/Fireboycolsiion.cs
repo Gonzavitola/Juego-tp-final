@@ -20,6 +20,7 @@ public class Fireboycolsiion : MonoBehaviour
     {
         if (col.gameObject.name == "cuboazul" || col.gameObject.name == "cubotoxico")
         {
+            miAM.PlayClip();
             transform.position = starpos;
         }
 

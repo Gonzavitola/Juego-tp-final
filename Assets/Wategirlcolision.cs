@@ -5,6 +5,7 @@ using UnityEngine;
 public class Wategirlcolision : MonoBehaviour
 {
     Vector3 starpos;
+    public audiomanager miAM;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class Wategirlcolision : MonoBehaviour
     {
         if (col.gameObject.name == "cuborojo" || col.gameObject.name == "cubotoxico")
         {
+            miAM.PlayClip();
             transform.position = starpos;
         }
 
